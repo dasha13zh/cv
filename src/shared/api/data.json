@@ -1,0 +1,28 @@
+{
+  "telegram": "https://t.me/Dasha_Loud",
+  "stack": [
+    "React",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "TypeScript",
+    "Sass",
+    "Storybook",
+    "Tailwind",
+    "Redux",
+    "MUI",
+    "ReduxToolkit",
+    "ReactQuery",
+    "ESlint",
+    "FSD",
+    "Vite",
+    "NextJS",
+    "GitlabCI",
+    "Firebase",
+    "NodeJS",
+    "ReactNative",
+    "Git",
+    "Nginx",
+    "Docker"
+  ]
+}
