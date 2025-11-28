@@ -1,4 +1,4 @@
-import { ReactElement } from "react";
+import type { ReactElement } from "react";
 
 import Css from "../ui/icons/css.svg?react";
 import Docker from "../ui/icons/docker.svg?react";
