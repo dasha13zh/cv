@@ -1,5 +1,5 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: system-ui, Roboto, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -15,11 +15,13 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: var(--link);
   text-decoration: inherit;
 }
-a:hover {
-  color: #535bf2;
+
+
+a:visited {
+  color: var(--link-visited);
 }
 
 body {
@@ -31,8 +33,14 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 2.8em;
   line-height: 1.1;
+}
+
+h2 {
+  font-size: 1.7em;
+  line-height: 1.1;
+  margin-top: 0;
 }
 
 button {
@@ -45,24 +53,70 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  transition: all 0.2s ease;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
+    --background: #FFFFFF;
+    --accent: #5F5F5F;
+    --accent-pale: #EDECEB;
+    --text: #000000;
+    --button: #000000;
+    --button-hover: #505050;
+    --button-active: #373737;
+    --button-text: #FFFFFF;
+    --divider: #919191;
+    --divider-pale: #DADADA;
+    --link: #646cff;
+    --link-hover: #535bf2;
+    --link-visited: #8a70ff;
+
+    --icon: #000000;
+    --icon-bg-hover: #EDECEB;
+    --icon-bg-active: #DADADA;
+
+    --blockquote-bg: #ebecff;
+
     color: #213547;
     background-color: #ffffff;
   }
+
   a:hover {
-    color: #747bff;
+    color: var(--link-hover);
+    cursor: pointer;
   }
+
   button {
     background-color: #f9f9f9;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #191919;
+    --accent: #9B9B9B;
+    --accent-pale: #292827;
+    --text: #D3D3D3;
+    --button: #FFFFFF;
+    --button-hover: #D3D3D3;
+    --button-active: #9B9B9B;
+    --button-text: #000000;
+    --divider: #505050;
+    --divider-pale: #373737;
+
+    --link: #ADB1FF;
+    --link-hover: #858bff;
+    --link-visited: #9273d3;
+
+    --blockquote-bg: #373737;
+
+    --icon: #FFFFFF;
+    --icon-bg-hover: #505050;
+    --icon-bg-active: #373737;
+  }
+
+   a:hover {
+    color: var(--link-hover);
   }
 }

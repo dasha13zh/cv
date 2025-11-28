@@ -1,0 +1,55 @@
+.accordion {
+  overflow: hidden;
+  margin-left: -0.6em;
+}
+
+.accordion-button {
+  width: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  padding: 0.5em 0.6em;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  text-align: left;
+  transition: background-color 0.2s ease;
+
+  position: relative;
+}
+
+.accordion-button:hover {
+  background-color: var(--icon-bg-hover);
+}
+
+.accordion-arrow {
+  transition: transform 0.3s ease;
+}
+
+.accordion-button.open .accordion-arrow {
+  transform: rotate(180deg);
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+  margin-left: 0.6em;
+}
+
+.accordion-content.open {
+  max-height: 500px; /* Фиксированная высота */
+}
+
+.accordion-inner {
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+}
+
+.accordion-content.open .accordion-inner {
+  opacity: 1;
+  transform: translateY(0);
+}
