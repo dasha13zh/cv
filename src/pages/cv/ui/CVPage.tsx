@@ -3,8 +3,10 @@ import { ContactMeButton } from "../../../shared/ui/ContactMeButton/ContactMeBut
 import { Accordion } from "../../../shared/ui/Accordion/Accordion";
 
 import { StackSection } from "./StackSection/StackSection";
-import TelegramIcon from './icons/telegram.svg?react'
-import EmailIcon from './icons/email.svg?react'
+import TelegramIcon from './icons/telegram.svg?react';
+import EmailIcon from './icons/email.svg?react';
+
+import photo from './images/main-photo.jpg';
 
 import './CVPage.css'
 
@@ -28,7 +30,7 @@ const CV = () => {
         </div>
 			</div>
 			<div className="header__columns_right">
-				<img src="/main-photo.jpg" alt={`Darya's photo`} />
+				<img src={photo} alt={`Darya's photo`} />
 			</div>
 		</div>
 		<p className="header__about-me">
