@@ -35,18 +35,18 @@
 .accordion-content {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.4s ease;
+  transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   margin-left: 0.6em;
 }
 
 .accordion-content.open {
-  max-height: 500px; /* Фиксированная высота */
+  max-height: 1000px;
 }
 
 .accordion-inner {
   opacity: 0;
   transform: translateY(-10px);
-  transition: all 0.3s ease;
+  transition: all 0.3s ease 0.1s;
 }
 
 .accordion-content.open .accordion-inner {
