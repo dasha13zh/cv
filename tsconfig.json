@@ -3,5 +3,13 @@
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
+  ],
+  "include": [
+    "packages/**/*"
+  ],
+  "exclude": [
+    "packages/**/node_modules",
+    "dist",
+    "node_modules"
   ]
 }
