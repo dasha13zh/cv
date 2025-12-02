@@ -14,7 +14,14 @@
   margin: 5rem auto 6rem;
 }
 
-h1, h2, h3, p, span, summary, li, blockquote {
+h1,
+h2,
+h3,
+p,
+span,
+summary,
+li,
+blockquote {
   color: var(--text);
 }
 
@@ -151,7 +158,9 @@ li {
 }
 
 .chips__item {
-  font-family: 'SFMono-Regular', Menlo, Consolas, 'PT Mono', 'Liberation Mono', Courier, monospace;
+  font-family:
+    'SFMono-Regular', Menlo, Consolas, 'PT Mono', 'Liberation Mono', Courier,
+    monospace;
   flex-shrink: 0;
   color: var(--accent);
   background-color: var(--accent-pale);
@@ -234,11 +243,14 @@ li {
     padding: 3rem 1.5rem;
   }
 
-  header, main, footer {
+  header,
+  main,
+  footer {
     max-width: unset;
   }
 
-  p, li {
+  p,
+  li {
     line-height: 1.5;
   }
 
