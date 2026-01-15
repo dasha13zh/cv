@@ -33,9 +33,11 @@ const CV = () => {
             <div className="header__contacts">
               <a href={data.telegram}>
                 <TelegramIcon />
+                {data.telegram_nickname}
               </a>
               <a href="mailto:dasha13zh@gmail.com">
                 <EmailIcon />
+                {data.email}
               </a>
             </div>
           </div>
@@ -79,7 +81,7 @@ const CV = () => {
               </li>
               <li>Настройка сборки с&nbsp;помощью Rollup</li>
               <li>
-                Настройка Service Worker для получения нотификаций
+                Настройка Service Worker для получения уведомлений
                 из&nbsp;Firebase
               </li>
               <li>Настройка CI/CD с&nbsp;помощью Gitlab-CI</li>
@@ -164,13 +166,12 @@ const CV = () => {
               Испания, Барселона
             </p>
             <p className="project__description">
-              Проект для полной обработки портовых вызовов, начиная
-              от&nbsp;прибытия судна, обработки груза, таможенного оформление
-              и&nbsp;заканчивая его&nbsp;уходом из&nbsp;порта. Клиент-серверное
-              приложение, состоящее из 2-х фронтендов: для&nbsp;судовых агентов
-              и&nbsp;капитанов, общей библиотеки компонетов и&nbsp;бэкенда.
+              Проект для полной обработки портовых вызовов. Клиент-серверное
+              приложение из 4-х компонентов: фронтенд для&nbsp;судовых агентов,
+              фронтенд для капитанов, общая библиотека компонентов
+              и&nbsp;бэкенд.
               <br />Я навела порядок на обоих фронтенд проектах: перенесла код
-              на&nbsp;TS и&nbsp;React 19, добавила линтер и&nbsp;код форматтер.
+              на&nbsp;TS и&nbsp;React 19, добавила линтер и&nbsp;Prettier.
               Увеличила скорость загрузки контента на&nbsp;40%.
             </p>
             <div className="project__column">
@@ -206,14 +207,13 @@ const CV = () => {
                       Сделала полный редизайн приложения для морских агентов
                     </li>
                     <li className="project__list-item">
-                      Пересла проект на TS и React 19
+                      Перенесла проект на TS и React 19
                     </li>
                     <li className="project__list-item">
                       Добавила конфигурацию ESLint, Prettier и Husky
                     </li>
                     <li className="project__list-item">
-                      Реструктурировала многостраничные формы с добавлением
-                      валидации
+                      Переделала многостраничные формы с добавлением валидации
                     </li>
                     <li className="project__list-item">
                       Реализовала загрузку и валидацию документов
@@ -224,7 +224,7 @@ const CV = () => {
                     <li className="project__list-item">
                       Унифицировала обработку и отображение ошибок API-вызовов
                     </li>
-                    <li className="project__list-item">Проведение код-ревью</li>
+                    <li className="project__list-item">Проводила код-ревью</li>
                   </ul>
                 }
               />
@@ -320,7 +320,7 @@ const CV = () => {
                       на&nbsp;мобильных устройствах
                     </li>
                     <li className="project__list-item">
-                      Менеджерила проект в&nbsp;течение 2-х спринтов
+                      Управляла проектом в&nbsp;течение 1-го месяца
                     </li>
                   </ul>
                 }
@@ -344,9 +344,8 @@ const CV = () => {
               запрашивать, отправлять на&nbsp;проверку, отзывать, предъявлять
               их&nbsp;проверяющим органам.
               <br />
-              Я&nbsp;была ответственной за&nbsp;клиентскую часть
-              для&nbsp;администраторов. Работа происходила в&nbsp;тесном
-              сотрудничестве с&nbsp;иностранной командой backend-разработки
+              Я&nbsp;отвечала за&nbsp;клиентскую часть для&nbsp;администраторов.
+              Работала с&nbsp;иностранной командой backend-разработки
               и&nbsp;дизайнером.
             </p>
             <div className="project__column">
@@ -381,11 +380,11 @@ const CV = () => {
                 content={
                   <ul>
                     <li className="project__list-item">
-                      Разработала с&nbsp;нуля интерфейс админской панели
+                      Разработала с&nbsp;нуля интерфейс панели администратора
                     </li>
                     <li className="project__list-item">
                       Настроила Service Worker для&nbsp;сохранения
-                      и&nbsp;отображения нотификаций Firebase
+                      и&nbsp;отображения уведомлений Firebase
                     </li>
                     <li className="project__list-item">
                       Реализовала инструмент для&nbsp;создания
@@ -399,7 +398,7 @@ const CV = () => {
                       на&nbsp;странице панели мониторинга
                     </li>
                     <li className="project__list-item">
-                      Верстка пошаговых форм с&nbsp;валидацией для создания
+                      Сверстала пошаговые формы с&nbsp;валидацией для создания
                       и&nbsp;редактирования различных бизнес-сущностей
                     </li>
                     <li className="project__list-item">
@@ -469,13 +468,11 @@ const CV = () => {
                       формы
                     </li>
                     <li className="project__list-item">
-                      Верстка гибкого и&nbsp;адаптивного интерфейса
+                      Сверстала гибкий и&nbsp;адаптивный интерфейс
                       под&nbsp;разные размеры экранов
                     </li>
-                    <li className="project__list-item">
-                      Исправление критичных багов и&nbsp;ошибок в&nbsp;коде
-                    </li>
-                    <li className="project__list-item">Проведение код-ревью</li>
+                    <li className="project__list-item">Устраняла техдолг</li>
+                    <li className="project__list-item">Проводила код-ревью</li>
                   </ul>
                 }
               />

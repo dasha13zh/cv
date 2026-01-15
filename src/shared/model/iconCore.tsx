@@ -16,6 +16,7 @@ import Nodejs from '../ui/icons/nodejs.svg?react';
 import React from '../ui/icons/react.svg?react';
 import Reactquery from '../ui/icons/reactQuery.svg?react';
 import Redux from '../ui/icons/redux.svg?react';
+import Rollup from '../ui/icons/rollup.svg?react';
 import Sass from '../ui/icons/sass.svg?react';
 import Storybook from '../ui/icons/storybook.svg?react';
 import Tailwind from '../ui/icons/tailwind.svg?react';
@@ -41,6 +42,7 @@ export type IconType =
   | 'react'
   | 'reactquery'
   | 'redux'
+  | 'rollup'
   | 'sass'
   | 'storybook'
   | 'tailwind'
@@ -66,6 +68,7 @@ export const IconMap: Record<IconType, (props: IconProps) => ReactElement> = {
   ['react']: ({ ...props }) => <React {...props} />,
   ['reactquery']: ({ ...props }) => <Reactquery {...props} />,
   ['redux']: ({ ...props }) => <Redux {...props} />,
+  ['rollup']: ({ ...props }) => <Rollup {...props} />,
   ['sass']: ({ ...props }) => <Sass {...props} />,
   ['storybook']: ({ ...props }) => <Storybook {...props} />,
   ['tailwind']: ({ ...props }) => <Tailwind {...props} />,

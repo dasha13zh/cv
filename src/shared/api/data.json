@@ -1,5 +1,7 @@
 {
   "telegram": "https://t.me/Dasha_Loud",
+  "telegram_nickname": "@Dasha_Loud",
+  "email": "dasha13zh@gmail.com",
   "stack": [
     "React",
     "HTML",
@@ -16,6 +18,7 @@
     "ESlint",
     "FSD",
     "Vite",
+    "Rollup",
     "NextJS",
     "GitlabCI",
     "Firebase",

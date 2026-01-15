@@ -25,6 +25,7 @@ export enum TechStack {
   ReactNative = 'React Native',
   NodeJS = 'NodeJS',
   FSD = 'FSD',
+  Rollup = 'Rollup',
 }
 
 export type TechStackType = keyof typeof TechStack;
@@ -181,5 +182,11 @@ export const mapTechStack: Record<TechStackType, TechStackDataType> = {
     description: 'Feature Sliced Design',
     type: '',
     icon: 'fsd',
+  },
+  Rollup: {
+    link: '',
+    description: 'Rollup',
+    type: '',
+    icon: 'rollup',
   },
 };
