@@ -77,7 +77,8 @@ const CV = () => {
               <li>Интернационализация интерфейсов</li>
               <li>Интеграция с&nbsp;внешними API</li>
               <li>
-                Работа с&nbsp;библиотеками компонентов, например, Material UI
+                Работа с&nbsp;библиотеками компонентов, например, Material UI и
+                Ant Design
               </li>
               <li>Настройка сборки с&nbsp;помощью Rollup</li>
               <li>
@@ -192,6 +193,7 @@ const CV = () => {
                     <li className="project__list-item">Next</li>
                     <li className="project__list-item">Storybook</li>
                     <li className="project__list-item">Sass</li>
+                    <li className="project__list-item">React Hook Form</li>
                     <li className="project__list-item">ESLint</li>
                     <li className="project__list-item">Prettier</li>
                     <li className="project__list-item">Jest</li>
