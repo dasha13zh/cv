@@ -77,10 +77,11 @@ const CV = () => {
               <li>Интернационализация интерфейсов</li>
               <li>Интеграция с&nbsp;внешними API</li>
               <li>
-                Работа с&nbsp;библиотеками компонентов, например, Material UI и
-                Ant Design
+                Работа с&nbsp;библиотеками компонентов и&nbsp;дизайн-системами,
+                например, Material&nbsp;UI и&nbsp;Ant&nbsp;Design
               </li>
               <li>Настройка сборки с&nbsp;помощью Rollup</li>
+              <li>Написание Unit-тестов и backend-сервисов на Node.js</li>
               <li>
                 Настройка Service Worker для получения уведомлений
                 из&nbsp;Firebase
@@ -134,7 +135,7 @@ const CV = () => {
                     <li className="project__list-item">React</li>
                     <li className="project__list-item">TypeScript</li>
                     <li className="project__list-item">Redux Toolkit</li>
-                    <li className="project__list-item">Next</li>
+                    <li className="project__list-item">Next.js</li>
                     <li className="project__list-item">Storybook</li>
                     <li className="project__list-item">Sass</li>
                     <li className="project__list-item">React Hook Form</li>
@@ -390,7 +391,7 @@ const CV = () => {
                   <ul>
                     <li className="project__list-item">React</li>
                     <li className="project__list-item">TypeScript</li>
-                    <li className="project__list-item">Next</li>
+                    <li className="project__list-item">Next.js</li>
                     <li className="project__list-item">i18next</li>
                     <li className="project__list-item">ESLint</li>
                     <li className="project__list-item">Prettier</li>
