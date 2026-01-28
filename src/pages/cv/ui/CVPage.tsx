@@ -98,62 +98,6 @@ const CV = () => {
       </header>
 
       <main>
-        <section className="work-expirience">
-          <h2 id="expirience">Опыт работы</h2>
-          <hr />
-          <div className="work-expirience__columns">
-            <div>
-              <h3>
-                Frontend-разработчик,{' '}
-                <a href="https://www.navozyme.com/">Navozyme</a>
-              </h3>
-              <p>
-                Октябрь 2024 → Ноябрь 2025
-                <br />
-                <span className="accent-text">1 год 1 месяц</span>
-              </p>
-            </div>
-            <div>
-              <p>
-                Была лидом frontend-направления и&nbsp;разрабатывала продукты
-                для&nbsp;цифровизации процессов морской индустрии
-                в&nbsp;интернациональной команде.
-              </p>
-              <p>Являлась&nbsp;наставником для стажеров.</p>
-            </div>
-          </div>
-          <hr />
-          <div className="work-expirience__columns">
-            <div>
-              <h3>
-                Frontend-разработчик, <a href="https://7bits.ru/">7bits</a>
-              </h3>
-              <p>
-                Июнь 2020 → Октябрь 2024
-                <br />
-                <span className="accent-text">4 года 3 месяца</span>
-              </p>
-            </div>
-            <div>
-              <p>
-                БОльшую часть времени работала frontend-разработчиком, хотя
-                начинала как&nbsp;full-stack, участвовала в&nbsp;разработке
-                backend&apos;а на&nbsp;Node.js. Пробовала себя в&nbsp;роли PM
-                на&nbsp;нескольких проектах в течение 2-х лет.
-              </p>
-              <p>
-                Преподавала на курсах
-                <a href="https://vk.com/itliftomsk">
-                  «Разработка web-интерфесов» IT-lift
-                </a>
-                : разрабатывала теоретические материалы, записывала лекции
-                и&nbsp;вела воркшопы. Также организовывала внутренние митапы
-                по&nbsp;frontend-направлению.
-              </p>
-            </div>
-          </div>
-        </section>
-
         <section className="project-list">
           <h2 id="projects">Проекты</h2>
           <hr />
@@ -478,6 +422,62 @@ const CV = () => {
                   </ul>
                 }
               />
+            </div>
+          </div>
+        </section>
+
+        <section className="work-expirience">
+          <h2 id="expirience">Опыт работы</h2>
+          <hr />
+          <div className="work-expirience__columns">
+            <div>
+              <h3>
+                Frontend-разработчик,{' '}
+                <a href="https://www.navozyme.com/">Navozyme</a>
+              </h3>
+              <p>
+                Октябрь 2024 → Ноябрь 2025
+                <br />
+                <span className="accent-text">1 год 1 месяц</span>
+              </p>
+            </div>
+            <div>
+              <p>
+                Была лидом frontend-направления и&nbsp;разрабатывала продукты
+                для&nbsp;цифровизации процессов морской индустрии
+                в&nbsp;интернациональной команде.
+              </p>
+              <p>Являлась&nbsp;наставником для стажеров.</p>
+            </div>
+          </div>
+          <hr />
+          <div className="work-expirience__columns">
+            <div>
+              <h3>
+                Frontend-разработчик, <a href="https://7bits.ru/">7bits</a>
+              </h3>
+              <p>
+                Июнь 2020 → Октябрь 2024
+                <br />
+                <span className="accent-text">4 года 3 месяца</span>
+              </p>
+            </div>
+            <div>
+              <p>
+                БОльшую часть времени работала frontend-разработчиком, хотя
+                начинала как&nbsp;full-stack, участвовала в&nbsp;разработке
+                backend&apos;а на&nbsp;Node.js. Пробовала себя в&nbsp;роли PM
+                на&nbsp;нескольких проектах в течение 2-х лет.
+              </p>
+              <p>
+                Преподавала на курсах
+                <a href="https://vk.com/itliftomsk">
+                  «Разработка web-интерфесов» IT-lift
+                </a>
+                : разрабатывала теоретические материалы, записывала лекции
+                и&nbsp;вела воркшопы. Также организовывала внутренние митапы
+                по&nbsp;frontend-направлению.
+              </p>
             </div>
           </div>
         </section>
